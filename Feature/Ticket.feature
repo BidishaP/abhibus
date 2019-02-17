@@ -5,13 +5,15 @@ Feature: Title of your feature
 
   @tag2
   Scenario Outline: Booking bus ticket
-    Given I want to write a step with 
+    Given I want to write a step with
     When I check for the in step "<FromNa>", "<ToNa>", "<Date>"
     Then I verify the success in step
 
     Examples: 
-      | FromNa  | ToNa      | Date       |
-      | Chennai | Banglore  | 19-02-2019 |
-      | Salem   | Chennai   | 03-03-2019 |
-      | Madurai | chennai   | 13-02-2019 |
-      | Tirupur | Coimbatur | 18-02-2019 |
+      | FromNa  | ToNa       | Date       |
+      | Chennai | Bangalore  | 03-04-2019 |
+      | Salem   | Chennai    | 04-04-2019 |
+      | Madurai | chennai    | 13-04-2019 |
+      | Tirupur | Coimbatore | 10-04-2019 |
+
+ 
